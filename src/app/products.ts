@@ -10,8 +10,8 @@ export const products = [
     description: 'bbbbbb'
   },
   {
-    name: 'bbbb',
+    name: 'cccc',
     price: 799,
-    description: 'bbbbbb'
+    description: 'ccccc'
   }
 ];

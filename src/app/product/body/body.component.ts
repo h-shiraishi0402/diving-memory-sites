@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { products } from '../../products';
 
 @Component({
   selector: 'app-body',
@@ -9,6 +10,7 @@ export class BodyComponent implements OnInit {
   products: any = [1, 2, 3, 4];
 
   constructor() {}
-
-  ngOnInit(): void {}
+  ngOnInit() {
+    this.products = products;
+  }
 }

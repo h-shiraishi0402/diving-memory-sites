@@ -6,19 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  nameArray = ["aaa","iii"];
-
-  arlt() {
-
-    window.alert("危ないよう")
-
-  }
-
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

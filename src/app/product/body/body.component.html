@@ -1,7 +1,22 @@
 <div class="container">
-    <a [routerLink]="['/detail']">
-        <br>
-        <div class="row">
+    <br>
+    <div class="row ">
+        <div *ngFor="let product of products; let productId = index" class="col-sm">
+            <a [routerLink]="[productId]">
+                <div class="card">
+                    <img class="card-img-top" src={{product.ImagePath}} alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ product.name }}</h5>
+                        <p class="card-text">{{ product.comment }}</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!--             
             <div class="col-sm">
                 <div class="card">
                     <img class="card-img-top" src="./assets/0.jpg" alt="Card image cap">
@@ -41,7 +56,4 @@
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
-            </div>
-        </div>
-    </a>
-</div>
+            </div> -->

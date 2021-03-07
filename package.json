@@ -1,6 +1,6 @@
 {
   "name": "diving-memory",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -11,36 +11,57 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "~11.0.5",
-    "@angular/common": "~11.0.5",
-    "@angular/compiler": "~11.0.5",
-    "@angular/core": "~11.0.5",
-    "@angular/forms": "~11.0.5",
-    "@angular/platform-browser": "~11.0.5",
-    "@angular/platform-browser-dynamic": "~11.0.5",
-    "@angular/router": "~11.0.5",
-    "bootstrap": "^4.5.3",
-    "rxjs": "~6.6.0",
-    "tslib": "^2.0.0",
-    "zone.js": "~0.10.2"
+    "@angular/animations": "~11.2.4",
+    "@angular/common": "~11.2.4",
+    "@angular/compiler": "~11.2.4",
+    "@angular/core": "^11.2.4",
+    "@angular/forms": "~11.2.4",
+    "@angular/platform-browser": "~11.2.4",
+    "@angular/platform-browser-dynamic": "~11.2.4",
+    "@angular/router": "~11.2.4",
+    "@ngtools/webpack": "^11.2.3",
+    "bootstrap": "^4.6.0",
+    "express": "^4.17.1",
+    "fsevents": "^2.3.2",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "requires": "^1.0.2",
+    "rxjs": "^6.6.6",
+    "tslib": "^2.1.0",
+    "zone.js": "~0.11.4"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.1100.5",
-    "@angular/cli": "~11.0.5",
-    "@angular/compiler-cli": "~11.0.5",
-    "@types/jasmine": "~3.6.0",
-    "@types/node": "^12.11.1",
-    "codelyzer": "^6.0.0",
+    "@angular-devkit/build-angular": "^0.1102.3",
+    "@angular/cli": "~11.2.3",
+    "@angular/compiler-cli": "~11.2.4",
+    "@types/jasmine": "^3.6.4",
+    "@types/node": "^14.14.31",
+    "codelyzer": "^6.0.1",
     "jasmine-core": "~3.6.0",
-    "jasmine-spec-reporter": "~5.0.0",
-    "karma": "~5.1.0",
+    "jasmine-spec-reporter": "~6.0.0",
+    "karma": "~6.1.1",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage": "~2.0.3",
-    "karma-jasmine": "~4.0.0",
-    "karma-jasmine-html-reporter": "^1.5.0",
+    "karma-jasmine": "~4.0.1",
+    "karma-jasmine-html-reporter": "^1.5.4",
     "protractor": "~7.0.0",
-    "ts-node": "~8.3.0",
+    "ts-node": "~9.1.1",
     "tslint": "~6.1.0",
-    "typescript": "~4.0.2"
-  }
+    "typescript": "^4.2.3"
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h-shiraishi0402/diving-memory-sites.git"
+  },
+  "keywords": [
+    "adgjmptw042"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h-shiraishi0402/diving-memory-sites/issues"
+  },
+  "homepage": "https://github.com/h-shiraishi0402/diving-memory-sites#readme"
 }
